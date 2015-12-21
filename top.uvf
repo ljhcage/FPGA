@@ -1,0 +1,26 @@
+
+#Created by Constraints Editor (xc3s100e-cp132-4) - 2015/11/24
+NET "cp" TNM_NET = "cp";
+TIMESPEC TS_cp = PERIOD "cp" 20 ns HIGH 50 %;
+
+# PlanAhead Generated physical constraints 
+
+NET "ce" LOC = P11;
+NET "cp" LOC = B8;
+NET "cr" LOC = L3;
+NET "cs[0]" LOC = J12;
+NET "cs[1]" LOC = F12;
+NET "cs[2]" LOC = K14;
+NET "cs[3]" LOC = M13;
+NET "seg[0]" LOC = L14;
+NET "seg[1]" LOC = H12;
+NET "seg[2]" LOC = N14;
+NET "seg[3]" LOC = N11;
+NET "seg[4]" LOC = P12;
+NET "seg[5]" LOC = L13;
+NET "seg[6]" LOC = M12;
+NET "seg[7]" LOC = N13;
+
+# PlanAhead Generated IO constraints 
+
+NET "cp" SLEW = FAST;
